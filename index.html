@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Örnekleme Programları</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container1">
+      <p class="başlık">
+        BASİT RASTGELE ÖRNEKLEME PROGRAMI</p> <br>
+        <label for="xmin"></label>Minimum
+        Değer (xmin):
+        <input type="number" id="xmin" min="1" step="1" required />
+        <label for="xmax"></label>Maksimum Değer (xmax):
+        <input type="number" id="xmax" min="1" step="1" required />
+        <br />
+        <label for="n"></label>sayı adedi (n):
+        <input type="number" id="rn" min="1" step="1" required />
+        <br />
+        <button onclick="generateRandomSample()">Örnekleme Yap</button>
+      </p>
+
+      <div id="randomResult"></div>
+    </div>
+
+    <div class="container2">
+      <p class="başlık">sitematik örnekleme programı</p>
+      <label for="N"></label>N Sayısı:
+      <input type="number" id="N" min="1" step="1" required />
+      <br />
+      <label for="n"></label>
+      n sayısı:
+
+      <input type="number" id="sn" min="1" step="1" required />,
+      <br />
+      <button onclick="generateSystematicSample()">Örnekleme Yap</button>
+      <div id="systematicResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

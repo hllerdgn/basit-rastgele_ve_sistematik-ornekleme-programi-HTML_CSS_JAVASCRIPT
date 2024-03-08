@@ -1,0 +1,62 @@
+.başlık {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container1 {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 120px;
+  text-align: center;
+}
+.container1:hover {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 100px;
+  border: 5px solid #080114;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(144, 205, 240);
+}
+
+.container2 {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 120px;
+  text-align: center;
+}
+.container2:hover {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 100px;
+  border: 5px solid black;
+  border-radius: 50px;
+  text-align: center;
+  background-color: rgb(144, 205, 240);
+}
+
+input,
+button {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#randomResult,
+#systematicResult {
+  margin-top: 20px;
+}
